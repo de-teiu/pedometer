@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" href="css/pedometer.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="pedometerBack">
+            <div class="countBack">
+                <span id="count">0</span>
+                <span class="walkText">歩</span>
+            </div>
+            <div class="subBack">
+                <a class="btnReset" id="reset">RESET</a>
+            </div>
+            <img src="image/logo.png" class="logo">
+
+        </div>
+        <audio id="sound-file" preload="auto">
+            <source src="se/sound1.wav" type="audio/wav">
+        </audio>
+        <br>
+        <br>【web万歩計】
+        <br>マウスでブラウザをドラッグして揺らすとカウントされます。
+        <br>運動不足解消にどうぞ。
+        <br>
+        <br>
+        <br>-よくある質問
+        <br>Q.スマホのブラウザに対応してますか？
+        <br>A.もちろんしてませんよ。
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/pedometer.js"></script>
+    </body>
+</html>
